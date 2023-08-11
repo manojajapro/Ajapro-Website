@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>ajapro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="color-scheme" content="light only" />
+		<meta name="description" content="software product engineering" />
+		<meta property="og:site_name" content="ajapro" />
+		<meta property="og:title" content="ajapro" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="software product engineering" />
+		<link href="https://fonts.googleapis.com/css?display=swap&family=Inter:400,400italic,500,500italic,300,300italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+		<script type="text/javascript">
+			function sendEmail() {
+				let name = document.getElementById("form01-name").value ;
+				let email =  document.getElementById("form01-email").value;
+				let number = document.getElementById("form01-number").value ;
+				let message = document.getElementById("form01-message").value ;
+			
+
+				let body = "<hr/> Name:" + name + "<br/><hr/> E-mail:" + email + "<br/><hr/> Contact number:" + number + " <br/><hr/> Message:" + message +"<hr/>" ;
+
+				Email.send({
+					SecureToken : "eb4d3b39-d61f-4d08-827c-11d9d8367cbb",
+					To : 'support@ajapro.com',
+					From : 'support@ajapro.com',
+					Subject : "Message from Contact Form - Ajapro Website",
+					Body : body
+				}).then(
+				  message =>{
+					alert("Thank you for contacting us");
+					// Clear input fields after successful submission
+					document.getElementById("form01-name").value = "";
+					document.getElementById("form01-email").value = "";
+					document.getElementById("form01-number").value = "";
+					document.getElementById("form01-message").value = "";
+				  } 
+				);
+
+			}
+			</script>
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<section id="home-section">
+						<div id="container06" class="style6 container default full">
+							<div class="wrapper">
+								<div class="inner">
+									<p id="text10" class="style9">we are software engineers, specialize in building SaaS products</p>
+									<h1 id="text02" class="style3">set your vision, we will deliver</h1>
+									<hr id="divider01" class="style1">
+									<p id="text07" class="style1">we develop software at record pace and agility, mastered delivering weekly product releases!</p>
+								</div>
+							</div>
+						</div>
+						<div id="container07" class="style2 container default full">
+							<div class="wrapper">
+								<div class="inner">
+									<p id="text17" class="style1">we are a boutique software engineering team from Bengaluru India, ready to embark on making your software product vision into reality, we have the ingredients to build state-of-the-art scalable SaaS platform. Masters of tech-stack Anglular, NodeJS, Nginix, PostGre, AWS, BI-Superset, Graphana, NIFI, Pentaho, Machine Learning and Blockchain.</p>
+									<ul id="buttons09" class="style2 buttons">
+										<li>
+											<a href="#one" class="button n01">Continue</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="container01" data-scroll-id="one" data-scroll-behavior="center" data-scroll-offset="0" class="style1 container columns full">
+							<div class="wrapper">
+								<div class="inner">
+									<div class="full">
+										<div id="image02" class="image full" data-position="top left">
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOTIwIDEyMjMiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEyMjMiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiMzMTQyMzQiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image02.jpg" alt="" /></span>
+										</div>
+									</div>
+									<div>
+										<h2 id="text06" class="style5">Relentless</h2>
+										<p id="text03" class="style1">Ajapro culture can be defined in one word &quot;relentless&quot;, we give all that takes to turn your vision into reality</p>
+										<ul id="buttons03" class="style1 buttons">
+											<li>
+												<a href="#two" class="button n01">Next</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="container04" data-scroll-id="two" data-scroll-behavior="center" data-scroll-offset="0" class="style5 container columns full">
+							<div class="wrapper">
+								<div class="inner">
+									<div>
+										<h2 id="text22" class="style5">Engineering</h2>
+										<p id="text23" class="style1">we follow hybrid approach, one regimented track on agile development methodology, second innovation track that is flexible and rapid, combo tracks brings impactful deliveries weekly!</p>
+										<ul id="buttons01" class="style1 buttons">
+											<li>
+												<a href="#three" class="button n01">Next</a>
+											</li>
+										</ul>
+									</div>
+									<div class="full">
+										<div id="image04" class="image full" data-position="bottom">
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOTIwIDEyMDkiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEyMDkiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM2ZDZjNjUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image04.jpg" alt="" /></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="container05" data-scroll-id="three" data-scroll-behavior="center" data-scroll-offset="0" class="style1 container columns full">
+							<div class="wrapper">
+								<div class="inner">
+									<div class="full">
+										<div id="image05" class="image full" data-position="bottom right">
+											<span class="frame deferred"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxOTIwIDEyODAiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEyODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyZWN0IGZpbGw9IiM5OTg4N2QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiLz48L3N2Zz4%3D" data-src="assets/images/image05.jpg" alt="" /></span>
+										</div>
+									</div>
+									<div>
+										<h2 id="text11" class="style5">Industry</h2>
+										<p id="text04" class="style1">we are software engineers, have expertise in building software products for talent, energy, high-tech, and automotive industries</p>
+										<ul id="buttons04" class="style1 buttons">
+											<li>
+												<a href="#subscribe" class="button n01">Next</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="container03" data-scroll-id="subscribe" data-scroll-behavior="center" data-scroll-offset="0" class="style4 container default full">
+							<div class="wrapper">
+								<div class="inner">
+									<h2 id="text14" class="style5">contact us</h2>
+									<p id="text05" class="style1">We are ready to listen and learn about product vision. Let Ajapro be part of your journey in creating solutions to better the world.</p>
+									<form id="form01" method="post" action="#" class="style1">
+										<div class="inner">
+											<div class="field">
+												<input type="text" name="name" id="form01-name" placeholder="Name" maxlength="128" required />
+											</div>
+											<div class="field">
+												<input type="email" name="email" id="form01-email" placeholder="Email" maxlength="128" required />
+											</div>
+											<div class="field">
+												<input type="number" name="number" id="form01-number" placeholder="Mobile Number" minlength="10" required />
+											</div>
+											<div class="field">
+												<textarea data-gramm_editor="false" name="message" id="form01-message" placeholder="Message" maxlength="16384" required></textarea>
+											</div>
+											<div class="actions">
+												<button type="button" onclick="sendEmail()">submit</button>
+											</div>
+										</div>
+										<input type="hidden" name="id" value="form01"  />
+									</form>
+								</div>
+							</div>
+						</div>
+						<div id="container02" class="style4 container default full">
+							<div class="wrapper">
+								<div class="inner">
+									<ul id="icons01" class="style1 icons">
+										<li>
+											<a class="n01" href="https://twitter.com/ajapro1" aria-label="Twitter">
+												<svg><use xlink:href="assets/icons.svg#twitter"></use></svg>
+												<span class="label">Twitter</span>
+											</a>
+										</li><li>
+											<a class="n02" href="https://www.instagram.com/ajapro/" aria-label="Instagram">
+												<svg><use xlink:href="assets/icons.svg#instagram"></use></svg>
+												<span class="label">Instagram</span>
+											</a>
+										</li><li>
+											<a class="n03" href="tel:+919443512353" aria-label="Mobile">
+												<svg><use xlink:href="assets/icons.svg#mobile"></use></svg>
+												<span class="label">Mobile</span>
+											</a>
+										</li><li>
+											<a class="n04" href="mailto:support@ajapro.com" aria-label="Email">
+												<svg><use xlink:href="assets/icons.svg#email-alt"></use></svg>
+												<span class="label">Email</span>
+											</a>
+										</li>
+									</ul>
+									<p id="text16" class="style10">© ajapro. All rights reserved.</p>
+								</div>
+							</div>
+						</div>
+						<section id="done-section">
+							<div id="container08" class="style3 container default">
+								<div class="wrapper">
+									<div class="inner">
+										<h2 id="text01" class="style5">Thank you</h2>
+										<p id="text08" class="style1"><span class="p">Talk is easy and cheap.<br />Ask for code and pilot.</span></p>
+										<ul id="buttons02" class="style1 buttons">
+											<li>
+												<a href="#home" class="button n01">Continue</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
